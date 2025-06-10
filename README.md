@@ -22,6 +22,8 @@ The library is built on top of [NativeWind](https://www.nativewind.dev/), enabli
 
 This project is an [Expo](https://expo.dev) application, providing a perfect environment to experiment with `gluestack-ui` v2 on both web and mobile platforms.
 
+### Using `npm`
+
 1.  **Install dependencies**
 
     ```bash
@@ -34,7 +36,21 @@ This project is an [Expo](https://expo.dev) application, providing a perfect env
     npx expo start
     ```
 
-    This will open the Expo developer tools, where you can choose to run the app on an Android emulator, iOS simulator, or in the browser (for React Native Web).
+### Using `bun`
+
+1.  **Install dependencies**
+
+    ```bash
+    bun install
+    ```
+
+2.  **Start the development server**
+
+    ```bash
+    bunx expo start
+    ```
+
+This will open the Expo developer tools, where you can choose to run the app on an Android emulator, iOS simulator, or in the browser (for React Native Web).
 
 ### Adding gluestack-ui v2 Components
 
