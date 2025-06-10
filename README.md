@@ -49,8 +49,8 @@ bunx expo prebuild --clean
 The `--clean` flag ensures that you start with a fresh set of native directories based on your current configuration. After running `prebuild`, you can launch the app on a specific platform:
 
 ```bash
-bunx expo run:ios
-bunx expo run:android
+bun run ios
+bun run android
 ```
 
 ### Adding gluestack-ui v2 Components
